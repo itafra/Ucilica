@@ -17,11 +17,11 @@ public class Krug extends GeometrijskiLik{
 
     @Override
     public double povrsina() {
-        return 0;
+        return (Math.pow(radijus, 2)) * Math.PI;
     }
 
     @Override
     public double opseg() {
-        return 0;
+        return 2 * radijus * Math.PI;
     }
 }
