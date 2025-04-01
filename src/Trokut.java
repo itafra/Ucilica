@@ -43,4 +43,9 @@ public class Trokut extends GeometrijskiLik {
     public double opseg() {
         return stranicaA + stranicaB + stranicaC;
     }
+
+    @Override
+    public int compareTo(GeometrijskiLik o) {
+        return 0;
+    }
 }

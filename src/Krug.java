@@ -24,4 +24,9 @@ public class Krug extends GeometrijskiLik{
     public double opseg() {
         return 2 * radijus * Math.PI;
     }
+
+    @Override
+    public int compareTo(GeometrijskiLik o) {
+        return 0;
+    }
 }
